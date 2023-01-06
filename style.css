@@ -1,23 +1,16 @@
-a[href] {
-	color: pink;
+li > span {
+	background-color: brown;
 }
 
-a[href="http://example.com"]
-{
-	color: blue;
+/* li[class~="item"] + span {
+	background-color: aquamarine;
+} */
+li.item + span {
+	background-color: darkorange;
 }
-
-a[href*="example"] {
-	color: red;
+li.item ~ span {
+	background-color: darkslateblue;
 }
-a[href$="org"] {
-	color: yellow;
-	background: black;
-}
-
-li[class="item"] a {
-	color: green;
-}
-li[class~="item"] a {
-	color: green;
+li + span {
+	background-color: yellow;
 }
