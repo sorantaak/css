@@ -16,3 +16,15 @@
 .background-yellow {
 	background-color: yellow;
 }
+#first.bold {
+	font-weight: bold;
+}
+/* .color-red.background-yellow {
+	font-weight: bold;
+} */
+div.background-yellow {
+	font-weight: bold;
+}
+#first p.color-red {
+	background: green;
+}
