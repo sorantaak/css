@@ -1,30 +1,23 @@
-/* header {
-	background: yellow;
-} */
+a[href] {
+	color: pink;
+}
 
-/* p {
-	color: red;
-} */
-/* #first {
-	background-color: yellow;
-} */
+a[href="http://example.com"]
+{
+	color: blue;
+}
 
-.color-red {
+a[href*="example"] {
 	color: red;
 }
+a[href$="org"] {
+	color: yellow;
+	background: black;
+}
 
-.background-yellow {
-	background-color: yellow;
+li[class="item"] a {
+	color: green;
 }
-#first.bold {
-	font-weight: bold;
-}
-/* .color-red.background-yellow {
-	font-weight: bold;
-} */
-div.background-yellow {
-	font-weight: bold;
-}
-#first p.color-red {
-	background: green;
+li[class~="item"] a {
+	color: green;
 }
