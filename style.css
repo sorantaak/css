@@ -1,10 +1,14 @@
-header {
+/* header {
 	background: yellow;
+} */
+
+/* p {
+	color: red;
+} */
+#first {
+	background-color: yellow;
 }
-/* comment test */
-/*
-* ---------Roocket section
-*/
-p {
+
+.text {
 	color: red;
 }
